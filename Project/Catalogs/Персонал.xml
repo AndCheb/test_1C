@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="e61dac4a-455b-4674-b25b-cbd616a677b0">
+	<Catalog uuid="89266f63-36fc-4500-a425-88696ab638eb">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Персонал" category="Object">
-				<xr:TypeId>50bfe552-11f2-4a3f-84ac-604163c0e613</xr:TypeId>
-				<xr:ValueId>cda797df-fbf3-4ee9-9cd2-f820bb34eb6b</xr:ValueId>
+				<xr:TypeId>39357135-4c21-43b9-8ef8-b76ca2e1cdb8</xr:TypeId>
+				<xr:ValueId>a56ac0ff-8ffd-434a-a380-c0e87cd7b7d4</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Персонал" category="Ref">
-				<xr:TypeId>25da9389-e55a-4945-9f48-50201637e7f8</xr:TypeId>
-				<xr:ValueId>10713765-33ce-4ef7-a563-41535fa16aaf</xr:ValueId>
+				<xr:TypeId>2c9a9a99-a3f0-43b1-a21e-a3c85669e4e2</xr:TypeId>
+				<xr:ValueId>ebd7bc68-a556-44d5-ba1c-b4054fe6cacc</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Персонал" category="Selection">
-				<xr:TypeId>ea8a9953-61b9-44f8-83b2-95053ec14556</xr:TypeId>
-				<xr:ValueId>bb008e02-3fa2-48cd-a7f4-c706690c3c9d</xr:ValueId>
+				<xr:TypeId>b2111a59-5a48-4701-9bae-ae3c88d6df64</xr:TypeId>
+				<xr:ValueId>c65203ad-929f-407f-a0ab-985ed233f6b8</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Персонал" category="List">
-				<xr:TypeId>d904c24d-5765-4b48-9c5d-94870c60ef7d</xr:TypeId>
-				<xr:ValueId>9546c414-09ba-45bc-a98f-a9fa5366faa6</xr:ValueId>
+				<xr:TypeId>daa6f693-8a82-4249-bb69-4369ed456404</xr:TypeId>
+				<xr:ValueId>57506bcc-d64b-4634-b35a-3ad2aa2b40b3</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Персонал" category="Manager">
-				<xr:TypeId>34882e11-89b7-4084-9e15-fa8dcf28914e</xr:TypeId>
-				<xr:ValueId>a0f19b76-6615-4700-b4f1-72b1d606f5f4</xr:ValueId>
+				<xr:TypeId>437740a9-3b9d-4abf-91bc-9ef4bf11102d</xr:TypeId>
+				<xr:ValueId>eecb5f3b-e2af-4d8f-8122-12dac1e869bb</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -86,75 +86,95 @@
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
-		<ChildObjects/>
-		<Attributes>
-			<Attribute uuid="a1b2c3d4-e5f6-7890-abcd-ef1234567890">
+		<ChildObjects>
+			<Attribute uuid="72ef52ec-7457-4472-9559-f89b73bd2a0f">
 				<Properties>
-					<Name>ФИО</Name>
+					<Name>ПолноеФИО</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ФИО</v8:content>
+							<v8:content>Полное ФИО</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment>Фамилия Имя Отчество сотрудника</Comment>
-					<Field>Catalog.Персонал.ФИО</Field>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
-					</Type>
-					<FillChecking>Show</FillChecking>
-					<Required>true</Required>
-					<Format>
 						<v8:StringQualifiers>
 							<v8:Length>150</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
-					</Format>
-					<CaseSensitive>DontChange</CaseSensitive>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
 					<MultiLine>false</MultiLine>
-					<ExtendedEdit>Use</ExtendedEdit>
-					<ExtendedEditType>String</ExtendedEditType>
-					<ChoiceParameters>
-						<v8:ChoiceParameters/>
-					</ChoiceParameters>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<SearchStringMode>Contains</SearchStringMode>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>DontUse</DataHistory>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="b2c3d4e5-f6a7-8901-bcde-f23456789012">
+			<Attribute uuid="a1b2c3d4-e5f6-7890-abcd-ef1234567890">
 				<Properties>
-					<Name>ПочасоваяСтавка</Name>
+					<Name>Ставка</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Почасовая ставка</v8:content>
+							<v8:content>Ставка</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment>Почасовая ставка оплаты сотрудника</Comment>
-					<Field>Catalog.Персонал.ПочасоваяСтавка</Field>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
-					</Type>
-					<FillChecking>Show</FillChecking>
-					<Required>true</Required>
-					<Format>
 						<v8:NumberQualifiers>
-							<v8:Digits>2</v8:Digits>
-							<v8:Negative>false</v8:Negative>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
 						</v8:NumberQualifiers>
-					</Format>
-					<MinValue>0</MinValue>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:decimal">0</FillValue>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<DataHistory>DontUse</DataHistory>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>DontUse</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-		</Attributes>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

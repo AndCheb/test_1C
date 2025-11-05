@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
-		<Metadata name="Catalog.Персонал" id="e61dac4a-455b-4674-b25b-cbd616a677b0" configVersion="acc7928855b2e34f89f3d49d5b1cd69c00000000"/>
-		<Metadata name="Configuration.Конфигурация" id="e24ec6dd-cdb8-4a49-8b03-b906c39c46e7" configVersion="dc94de1f1af68c42b6c58987156e8f3c00000000"/>
-		<Metadata name="Language.Русский" id="b8732d7d-4f68-43e1-8061-fb85e0770015" configVersion="b822ce91a861c644b8d8843dcde11ee000000000"/>
+		<Metadata name="Catalog.Персонал" id="89266f63-36fc-4500-a425-88696ab638eb" configVersion="50bd98f856f89b40bf5186fca83f49c500000000">
+			<Metadata name="Catalog.Персонал.Attribute.ПолноеФИО" id="72ef52ec-7457-4472-9559-f89b73bd2a0f"/>
+			<Metadata name="Catalog.Персонал.Attribute.Ставка" id="a1b2c3d4-e5f6-7890-abcd-ef1234567890"/>
+		</Metadata>
+		<Metadata name="Configuration.Конфигурация" id="7aaf530a-384f-46d4-b8ce-2ba2d2ad3240" configVersion="9e7cea8bb19e0347b44c0bdd78e647b000000000"/>
+		<Metadata name="Language.Русский" id="85cdf9e4-6859-4d4c-b657-de88eb53ce0c" configVersion="e522875e7dc81d469cc9434a4a8de91800000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
