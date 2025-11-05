@@ -30,6 +30,10 @@
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
 				<xr:ObjectId>30d5999e-7bed-4f97-b949-c59d2b5098b7</xr:ObjectId>
 			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
+				<xr:ObjectId>a1b2c3d4-e5f6-7890-abcd-ef1234567890</xr:ObjectId>
+			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
 			<Name>Конфигурация</Name>
@@ -245,6 +249,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Catalog>Персонал</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

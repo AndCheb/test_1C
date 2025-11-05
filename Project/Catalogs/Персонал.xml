@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="a1b2c3d4-e5f6-7890-abcd-ef1234567890">
+		<Properties>
+			<Name>Персонал</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Персонал</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Справочник сотрудников</Comment>
+			<UseStandardCommands>true</UseStandardCommands>
+			<Hierarchical>false</Hierarchical>
+			<ItemsNumber>Number</ItemsNumber>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>25</DescriptionLength>
+			<CheckUnique>true</CheckUnique>
+			<DefaultForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<DefaultFolderForm/>
+			<FullTextSearch>Use</FullTextSearch>
+			<DataHistory>DontUse</DataHistory>
+			<DataHistoryPurgeOnDeletion>DontUse</DataHistoryPurgeOnDeletion>
+			<DataHistoryPeriod>DontUse</DataHistoryPeriod>
+			<DataHistoryPeriodValue>0</DataHistoryPeriodValue>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<ObjectPresentation/>
+			<ExtendedObjectPresentation/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<FillChecking>ShowError</FillChecking>
+			<ChoiceParametersOnInput>DontUse</ChoiceParametersOnInput>
+			<CreateOnInput>Use</CreateOnInput>
+			<ChoiceHistoryOnInput>Use</ChoiceHistoryOnInput>
+			<FullTextSearchOnInput>Use</FullTextSearchOnInput>
+			<StandardAttributes>
+				<Code>true</Code>
+				<Description>true</Description>
+				<Predefined>false</Predefined>
+				<Parent>false</Parent>
+				<Owner>false</Owner>
+			</StandardAttributes>
+			<SearchOnInputByString/>
+			<SearchOnInputByStringForCode/>
+			<SearchOnInputByStringForDescription/>
+			<InputByString>CodeDescription</InputByString>
+			<PostInPrivilegedMode>false</PostInPrivilegedMode>
+			<RestrictEditRequisites/>
+			<RestrictDeleteItems/>
+			<RestrictInsertItems/>
+			<RestrictEditItems/>
+		</Properties>
+		<ChildObjects>
+			<Attributes>
+				<CatalogAttribute uuid="f1e2d3c4-b5a6-9780-1234-567890abcdef">
+					<Properties>
+						<Name>ФИО</Name>
+						<Synonym>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ФИО</v8:content>
+							</v8:item>
+						</Synonym>
+						<Comment>Фамилия, имя, отчество сотрудника</Comment>
+						<FillChecking>ShowError</FillChecking>
+						<ToolTip/>
+						<Type>
+							<v8:Type>
+								<v8:Types>
+									<v8:StringType/>
+								</v8:Types>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</AllowedLength>
+								</v8:StringQualifiers>
+							</v8:Type>
+						</Type>
+					</Properties>
+				</CatalogAttribute>
+				<CatalogAttribute uuid="a9b8c7d6-e5f4-3210-9876-543210fedcba">
+					<Properties>
+						<Name>ПочасоваяСтавка</Name>
+						<Synonym>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Почасовая ставка</v8:content>
+							</v8:item>
+						</Synonym>
+						<Comment>Почасовая ставка оплаты сотрудника</Comment>
+						<FillChecking>ShowError</FillChecking>
+						<ToolTip/>
+						<Type>
+							<v8:Type>
+								<v8:Types>
+									<v8:NumberType/>
+								</v8:Types>
+								<v8:NumberQualifiers>
+									<v8:Digits>0</v8:Digits>
+									<v8:DigitsFraction>2</v8:DigitsFraction>
+								</v8:NumberQualifiers>
+							</v8:Type>
+						</Type>
+					</Properties>
+				</CatalogAttribute>
+			</Attributes>
+			<Forms/>
+			<InputByString/>
+			<Commands/>
+			<Tasks/>
+			<XDTOPackages/>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
+
